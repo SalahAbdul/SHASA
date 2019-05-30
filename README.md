@@ -1,2 +1,0 @@
-# SHASA
-Created with CodeSandbox

@@ -1,0 +1,27 @@
+.project{
+  background-image: url(https://wallpaperbro.com/img/625312.jpg);
+  text-align: center;
+}
+
+.grid-card {
+  padding: 3rem;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+}
+.item {
+  width: 200px;
+  height: 100px;
+  background-color: #fefefe;
+  margin: 10px;
+  border-radius: 20px;
+  text-align: center;
+  padding-top: 2rem;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.item::after {
+  content: "";
+  width: 100%;
+  height: 100%;
+  background-color: red;
+  z-index: 3;
+}
